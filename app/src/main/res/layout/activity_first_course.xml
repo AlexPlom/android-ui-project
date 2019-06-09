@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/loli"
+                android:orientation="vertical">
+    
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="Course Information"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorLight"
+    />
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:textColor="@color/colorLight"
+              android:layout_marginLeft="20dp"
+              android:textSize="25dp"
+              android:text="Course:"
+    />
+
+    <TextView android:id="@+id/textViewSubject"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/colorLight"
+              android:layout_marginLeft="20dp"
+              android:textSize="25dp"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:textColor="@color/colorLight"
+              android:layout_marginLeft="20dp"
+              android:textSize="25dp"
+              android:text="Lector:"
+    />
+
+    <TextView android:id="@+id/textViewLector"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/colorLight"
+              android:layout_marginLeft="20dp"
+              android:textSize="25dp"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:textColor="@color/colorLight"
+              android:layout_marginLeft="20dp"
+              android:textSize="25dp"
+              android:text="Starts At:"
+    />
+
+    <TextView android:id="@+id/textViewStartingHour"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/colorLight"
+              android:layout_marginLeft="20dp"
+              android:textSize="25dp"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:textColor="@color/colorLight"
+              android:layout_marginLeft="20dp"
+              android:textSize="25dp"
+              android:text="Current Week:"
+    />
+
+    <TextView android:id="@+id/textViewCurrentWeek"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/colorLight"
+              android:layout_marginLeft="20dp"
+              android:textSize="25dp"
+    />
+    <Button
+            android:id="@+id/shareButton"
+            android:text="Share"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorLight"
+            android:background="@color/colorPrimary"/>
+</LinearLayout>
